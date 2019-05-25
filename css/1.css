@@ -1,0 +1,396 @@
+#logo { 
+position: absolute; 
+float: center; 
+width:110px; 
+height:70px; 
+display:block; 
+outline:none; 
+text-decoration:none; 
+border:none;
+margin-left:315px;
+margin-top: 0px;
+border-radius:50%; 
+}
+.but1,.but2,.but3,.but4,.but5 {
+	width: 80px;
+  height: 30px;
+  text-decoration: none;
+  padding-top: 9px;
+  color: white;
+  text-align: left;
+  line-height: 20px;
+  display: block;
+  margin: 20px auto;
+  font: normal 17px SEGOE PRINT;
+}
+.but1,.but2,.but3,.but4,.but5{float:left;margin:0 0.63%;
+position: relative;}
+
+.but4 {
+	margin-top:-5px;
+	margin-left: 500px;
+}
+.but5 {
+	margin-top:-5px;
+	margin-left: 670px;
+}
+.social {
+    width: 105%;
+    height: 70px;
+    background: black;
+    margin-left: -10px;
+    margin-top: -16px;
+
+}
+#geroi {
+  width: 105%;
+  height: 500px;
+  margin-left: -10px;
+  -moz-background-size: 150%; 
+    -webkit-background-size: 150%; 
+    -o-background-size: 150%; 
+    background-size: 150%;
+}
+#Marvelsogeroi {
+  text-align: center;
+  background-color: yellow;
+}
+#spider {
+
+}
+.but1:hover, .but2:hover, .but3:hover {
+  animation:hide .5s ease-in-out 0s infinite alternate both;
+}
+@keyframes hide {
+  0% {
+    top:0; box-shadow:-1px -1px 3px red;
+  }
+  100% {
+    top:-2px; box-shadow:1px 1px 3px red;
+  }
+  100% {
+    top:2px; box-shadow:3px 3px 15px red;
+  }
+}
+
+.but1:hover, .but2:hover, .but3:hover {
+
+   text-decoration:none;
+  background:red;
+  padding:-4%;
+  color:#fff;
+  position:relative;
+  font-size:13px;
+  border-radius:30px;
+  font-family: Roboto, sans-serif;
+  margin-top: 10px;
+}
+.but4 {
+   position:absolute;
+    z-index:0;
+}
+.but5 {
+  position:absolute;
+    z-index:0;
+}
+.but4:hover {
+  text-decoration:none;
+  background:red;
+  padding:2%;
+  color:#fff;
+  font-size:13px;
+  border-radius:30px;
+  font-family: Roboto, sans-serif;
+  top: 8px;
+}
+.but5:hover {
+  text-decoration:none;
+  background:red;
+  padding:2%;
+  color:#fff;
+  font-size:13px;
+  border-radius:30px;
+  font-family: Roboto, sans-serif;
+  top: 8px;
+}
+.but4:hover,.but5:hover {
+   animation:hide .5s ease-in-out 0s infinite alternate both;
+}
+@keyframes hide {
+  0% {
+    top:0; box-shadow:-1px -1px 3px red;
+  }
+  100% {
+    top:-2px; box-shadow:1px 1px 3px red;
+  }
+  100% {
+    top:2px; box-shadow:3px 3px 15px red;
+  }
+}
+}
+.main-slider {
+  height: auto;
+  background: #16181b;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.main-slider > ul { 
+  height: 100%;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.main-slider li { 
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+.main-slider li img{
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+.dots {
+    bottom: 20px;
+    left: 273px;
+    position: absolute;
+    right: 0;
+}
+.dots li {
+    border: 2px solid #c2ccc3;
+    cursor: pointer;
+    display: inline-block;
+    height: 8px;
+    margin: 0 4px;
+    opacity: 0.4;
+    text-indent: -999em;
+    transition: background 0.5s ease 0s, opacity 0.5s ease 0s;
+    width: 8px;
+  
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.dots li.active {
+    background:#c2ccc3;
+    opacity: 1;
+}
+#round {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 30px 15px;
+    margin-left: 80px;
+    margin-to: 500px;
+   }
+   #ds {
+    margin-left: 100px;
+    margin-top: -15px;
+   }
+   #zhmiak {
+    background-color: red;
+   }
+   #round2 {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 30px 15px;
+    margin-left: 80px;
+    margin-top: -30px;
+    
+
+   
+
+   }
+#round3 {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100%;
+    padding: 30px 15px;
+    margin-left: 80px;
+    margin-top: -30px;
+    }
+#pdpfj1 {
+  margin-top: 150px;
+}
+.odk1 {
+  width:400px;
+  margin-left: 21%;
+}
+.round1 {
+  margin-left: 5%;
+}
+.gelezo {
+  width: 450px;
+  height: 300px;
+  margin-left: 150px;
+}
+.tony {
+  width: 450px;
+  height: 300px;
+}
+#tosha {
+  margin-left: 120px;
+  font-style: italic;
+  opacity: .7;
+}
+#tosha2 {
+  font-style: normal;
+  opacity: .9;
+}
+#metalik {
+    font-style: italic;
+}
+#metalik1 {
+  width: 450px;
+  height: 300px;
+}
+#jelezo {
+  margin-left: 120px;
+  font-style: italic;
+  opacity: .7;
+}
+#tosha3 {
+  font-style: normal;
+  opacity: .9;
+}
+#wwasj {
+    opacity: .9;
+}
+#jelezo1 {
+  width: 450px;
+  height: 300px;
+}
+#jelezo2 {
+     margin-left: 120px;
+  font-style: italic;
+  opacity: .7;
+}
+#ujelezou {
+  width: 450px;
+  height: 300px;
+}
+#ujelezou1 {
+  margin-left: 130px;
+  font-style: italic;
+  opacity: .7;
+}
+#ilon {
+  width: 450px;
+  height: 300px;
+}
+#ilon1 {
+   margin-left: 180px;
+  font-style: italic;
+  opacity: .7;
+}
+#lllspider {
+  width: 450px;
+  height: 300px;
+}
+.conteinerzhel {
+  margin-top: 100px;
+}
+.sverh, .sverh1 {
+  color: red;
+}
+#chelspider {
+  width: 450px;
+  height: 300px;
+}
+.sverh2 {
+  color: red;
+}
+.sverh3 {
+  color: red;
+}
+.sverh4 {
+  color: red;
+}
+.sverh5 {
+  color: red;
+}
+.sverh6 {
+  color: red;
+}
+.sverh7 {
+  color: red;
+}
+.sverh8 {
+  color:blue;
+}
+#banner {
+  width: 450px;
+  height: 300px;
+  margin-left: 160px;
+}
+#hualkus {
+  width: 450px;
+  height: 300px;
+  margin-left: 160px;
+}
+footer {
+  background: #000;
+  color: #acacac;
+  padding: 0px 0px 30px 0px;
+}
+.mail {
+  float: left;
+  font-size: 16px;
+  color: white;
+  background: url(../img/mail.png) no-repeat left center;
+  padding-left: 25px;
+  
+}
+
+.logo {
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 320px;
+}
+
+.logo span {
+  color: #ffb400;
+  margin-left: 0%;
+}
+
+.phone {
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  background: url(../img/phone.png) no-repeat left center;
+  padding-left: 25px;
+  margin-top: -25px;
+}
+.social-block {
+  margin: 30px auto;
+  width: 120px;
+}
+.social789 {
+  border-radius: 50%;
+  width: 29px;
+  height: 29px;
+  background: black;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 31px;
+  margin-right: 11px;
+}
+.social789:nth-child(3) {
+  margin-right: 0px;
+}
+.social789:hover {
+  background: #ffb400;
+  box-shadow: 0px 0px 0px 6px #ffe4a3;
+}
+body {
+  background-color: #4B0082;
+}
